@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.banco.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/menuInicio"
+        android:name="com.example.banco.MenuInicio"
+        android:label="fragment_menu_inicio"
+        tools:layout="@layout/fragment_menu_inicio" />
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.banco.Registro"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.banco.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/selecaoConta"
+        android:name="com.example.banco.SelecaoConta"
+        android:label="fragment_selecao_conta"
+        tools:layout="@layout/fragment_selecao_conta" />
+</navigation>
